@@ -83,8 +83,17 @@ namespace RocketLeagueMutatorUtility
 
             var games = new string[]
             {
+                "TAGame.GameInfo_TA",
+                "TAGame.GameInfo_BotPerfTest_TA",
+                "TAGame.GameInfo_Default_TA",
+                "TAGame.GameInfo_GFxMenu_TA",
+                "TAGame.GameInfo_Replay_TA",
+                "TAGame.GameInfo_Season_TA",
                 "TAGame.GameInfo_Soccar_TA",
-                "TAGame.GameInfo_Tutorial_TA"
+                "TAGame.GameInfo_Tutorial_TA",
+                "ProjectX.GameInfo_TA",
+                "ProjectX.GameInfo_MapProfiler_X",
+                "ProjectXTesting.TestGameInit_X"
             };
             comboBoxGame.DataSource = games;
 
@@ -94,7 +103,13 @@ namespace RocketLeagueMutatorUtility
                 "FreePlay",
                 "Goalie",
                 "Bot Match",
-                "Striker"
+                "Striker",
+                "Obstacle",
+                "Advanced",
+                "Splitscreen",
+                "listen",
+                "newgame",
+                "playtest"
             };
             comboBoxGameMode.DataSource = gameModes;
 

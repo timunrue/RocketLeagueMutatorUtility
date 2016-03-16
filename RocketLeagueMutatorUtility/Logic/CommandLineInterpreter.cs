@@ -184,8 +184,17 @@ namespace RocketLeagueMutatorUtility.Logic
         {
             var games = new string[]
             {
+                "TAGame.GameInfo_TA",
+                "TAGame.GameInfo_BotPerfTest_TA",
+                "TAGame.GameInfo_Default_TA",
+                "TAGame.GameInfo_GFxMenu_TA", // Main menu
+                "TAGame.GameInfo_Replay_TA",
+                "TAGame.GameInfo_Season_TA",
                 "TAGame.GameInfo_Soccar_TA",
-                "TAGame.GameInfo_Tutorial_TA"
+                "TAGame.GameInfo_Tutorial_TA",
+                "ProjectX.GameInfo_TA",
+                "ProjectX.GameInfo_MapProfiler_X",
+                "ProjectXTesting.TestGameInit_X"
             };
             if (game >= 0 && game <= games.Length)
             {
