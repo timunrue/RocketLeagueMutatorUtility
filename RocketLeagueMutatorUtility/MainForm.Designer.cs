@@ -57,6 +57,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.labelRLRunning = new System.Windows.Forms.Label();
             this.buttonKill = new System.Windows.Forms.Button();
+            this.groupBoxPresets = new System.Windows.Forms.GroupBox();
             this.groupBoxExeLocation.SuspendLayout();
             this.groupBoxSettings.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -321,9 +322,9 @@
             // 
             // buttonLaunch
             // 
-            this.buttonLaunch.Location = new System.Drawing.Point(319, 244);
+            this.buttonLaunch.Location = new System.Drawing.Point(319, 339);
             this.buttonLaunch.Name = "buttonLaunch";
-            this.buttonLaunch.Size = new System.Drawing.Size(274, 33);
+            this.buttonLaunch.Size = new System.Drawing.Size(280, 33);
             this.buttonLaunch.TabIndex = 2;
             this.buttonLaunch.Text = "Launch Game";
             this.buttonLaunch.UseVisualStyleBackColor = true;
@@ -333,9 +334,9 @@
             // 
             this.groupBox1.Controls.Add(this.linkLabelRedditPost);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(18, 237);
+            this.groupBox1.Location = new System.Drawing.Point(12, 332);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(295, 62);
+            this.groupBox1.Size = new System.Drawing.Size(301, 62);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
@@ -362,7 +363,7 @@
             // labelRLRunning
             // 
             this.labelRLRunning.AutoSize = true;
-            this.labelRLRunning.Location = new System.Drawing.Point(319, 288);
+            this.labelRLRunning.Location = new System.Drawing.Point(319, 383);
             this.labelRLRunning.Name = "labelRLRunning";
             this.labelRLRunning.Size = new System.Drawing.Size(144, 13);
             this.labelRLRunning.TabIndex = 4;
@@ -370,19 +371,29 @@
             // 
             // buttonKill
             // 
-            this.buttonKill.Location = new System.Drawing.Point(518, 283);
+            this.buttonKill.Location = new System.Drawing.Point(518, 378);
             this.buttonKill.Name = "buttonKill";
-            this.buttonKill.Size = new System.Drawing.Size(75, 23);
+            this.buttonKill.Size = new System.Drawing.Size(81, 23);
             this.buttonKill.TabIndex = 5;
             this.buttonKill.Text = "Kill Process";
             this.buttonKill.UseVisualStyleBackColor = true;
             this.buttonKill.Click += new System.EventHandler(this.buttonKill_Click);
             // 
+            // groupBoxPresets
+            // 
+            this.groupBoxPresets.Location = new System.Drawing.Point(13, 238);
+            this.groupBoxPresets.Name = "groupBoxPresets";
+            this.groupBoxPresets.Size = new System.Drawing.Size(586, 95);
+            this.groupBoxPresets.TabIndex = 6;
+            this.groupBoxPresets.TabStop = false;
+            this.groupBoxPresets.Text = "Presets";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(611, 318);
+            this.ClientSize = new System.Drawing.Size(611, 408);
+            this.Controls.Add(this.groupBoxPresets);
             this.Controls.Add(this.buttonKill);
             this.Controls.Add(this.labelRLRunning);
             this.Controls.Add(this.groupBox1);
@@ -434,6 +445,7 @@
         private System.Windows.Forms.Label labelBotDifficulty;
         private System.Windows.Forms.Label labelBotNumber;
         private System.Windows.Forms.MaskedTextBox maskedTextBoxNumberBots;
+        private System.Windows.Forms.GroupBox groupBoxPresets;
     }
 }
 
